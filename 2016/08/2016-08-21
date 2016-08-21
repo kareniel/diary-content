@@ -1,0 +1,20 @@
+## git submodules (again)
+
+- git submodules are static. If you add commits to a submodule, the parent project won’t know. 
+Until you update the parent project, nothing changes.
+
+- `git submodule update --init --recursive` : Ensures you have all the submodule's content. 
+Remember to commit all your changes before running it!
+
+- Always publish the submodule change before publishing the change to the superproject that references it
+
+- The submodules are stored in .gitmodules
+
+```
+[submodule "ext/google-maps"]
+    path = ext/google-maps
+    url = git://git.naquadah.org/google-maps.git
+```
+
+- `git submodule sync`:  run this when you change `.gitmodules`. 
+This updates .git/config which contains a copy of the submodule list
