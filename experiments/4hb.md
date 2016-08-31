@@ -66,4 +66,27 @@
 
 ## grocery list
 
+### meat
+- 1 whole chicken
+- 2 pounds of ground horse meat
+- 4 cans of sardines
+- 4 cans of tuna
+- 1 bag of frozen shrimps
 
+### protein
+- whey powder
+- 2 cans of black beans
+- 2 cans of lentils
+- 2 cans of chick peas
+- 1 dozen eggs
+
+### veggies
+- 2 bags of spinach
+- 1 pack of green beans
+- 7 avocados
+- 2 heads of lettuce
+- 1 bag of frozen mixed vegetables
+
+### snacks
+- 1 bag of sunflower seeds
+- 1 pack of beef jerky
