@@ -1,0 +1,46 @@
+## trying to setup wwwchoo
+
+npm start
+
+bundle.js:28 Uncaught TypeError: Failed to execute 'appendChild' on 'Node': parameter 1 is not of type 'Node'.
+bundle.js:199 Uncaught AssertionError: could not find node #app-root
+
+
+npm run deps
+
+Success! All dependencies used in the code are listed in package.json
+Fail! Modules in package.json not used in code: basscss, bel, brfs, choo, css-wipe, global, hyperxify, insert-css, mdjson, sheet-router, sheetify, sheetify-cssnext, tachyons-font-family, tachyons-line-height, tachyons-type-scale, virtual-app, virtual-dom
+
+npm run watch
+
+localhost/:1 GET http://localhost:35729/livereload.js?snipver=1 net::ERR_CONNECTION_REFUSED
+
+
+npm run test
+
+failed
+
+
+./scripts/start
+
+readlink: illegal option -- f
+./scripts/start: line 17: ./../node_modules/.bin/nodemon: No such file or directory
+./scripts/start: line 22: ./../node_modules/.bin/garnish: No such file or directory
+
+## cpu
+
+from
+
+2011 mbp
+2.4 ghz "Sandy Bridge" Intel Core i5-2435M
+
+to
+
+2016 mpa
+2.3-GHz Intel Core i5-6200U
+
+
+
+## words
+
+`sustainable nonprofit`
