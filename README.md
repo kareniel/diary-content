@@ -1,10 +1,3 @@
 # My Tech Diary
-Things to keep an eye on and some notes.
 
-## Topics Summary
-
-### 2016
-
-#### [August](2016/08)
-
-* git submodules
+I always end up after a few days with a dozen Sublime Text tabs open with copy/pasted stuff that I might want to have access to in the future but don't really have time to organize. 
