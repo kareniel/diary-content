@@ -1,0 +1,16 @@
+## internal newsletter ?
+
+Building Cost-Aware Cloud Architectures - Jinesh Varia (AWS) and Adrian Cockcroft (Netflix)
+(Slides)
+
+5 ways you can build cost-awareness into your cloud architectures and maximize your savings (business-driven auto scaling, mixing and matching reserved/on-demand, iterating and optimizing fungible resources, follow the customer (run auto scaling web servers) during the day and follow the money (run hadoop and transcoding jobs) at night and soak up your reservations.
+
+http://www.slideshare.net/AmazonWebServices/building-costaware-architectures-jinesh-varia-aws-and-adrian-cockroft-netflix
+
+
+---
+
+The Reactive Manifesto
+
+http://www.reactivemanifesto.org/
+
