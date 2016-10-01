@@ -9,6 +9,7 @@
 - XCode
 - Homebrew
 - Node.js
+- f.lux
 
 ## extras
 
