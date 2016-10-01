@@ -1,11 +1,12 @@
 ## software to install
 
+- The Unarchiver
 - Chrome
 - Firefox
+- Opera
+- VirtualBox
+- Edge
 - Sublime Text
-  - Package Control
-  - Javascript Next - ES6 Syntax
-  - Jade
 - XCode
 - Homebrew
 - Node.js
