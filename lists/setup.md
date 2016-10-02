@@ -1,5 +1,6 @@
 ## software to install
 
+- Google Drive
 - The Unarchiver
 - Chrome
 - Firefox
