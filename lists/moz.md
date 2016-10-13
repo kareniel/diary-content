@@ -22,3 +22,7 @@
 
 - spidermonkey
 
+- mozvr
+
+- servo & rust
+
