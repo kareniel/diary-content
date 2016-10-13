@@ -20,6 +20,8 @@
 
 - wasm
 
+- devtools, debugger.html
+
 - spidermonkey
 
 - mozvr
