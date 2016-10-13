@@ -6,8 +6,19 @@
 
 [rust blog](https://blog.rust-lang.org/)
 
+[spidermonkey](https://blog.mozilla.org/javascript/)
+
 
 ## events
 
 [#viewsourceconf](https://viewsourceconf.org/berlin-2016/)
+
+
+# cool projects
+
+- emscripten, asm.js
+
+- wasm
+
+- spidermonkey
 
