@@ -1,12 +1,12 @@
 ## blogs
 
-[mozilla hacks](https://hacks.mozilla.org/)
+- [mozilla hacks](https://hacks.mozilla.org/)
 
-[servo blog](https://blog.servo.org/)
+- [servo blog](https://blog.servo.org/)
 
-[rust blog](https://blog.rust-lang.org/)
+- [rust blog](https://blog.rust-lang.org/)
 
-[spidermonkey](https://blog.mozilla.org/javascript/)
+- [spidermonkey](https://blog.mozilla.org/javascript/)
 
 
 ## events
@@ -22,7 +22,7 @@
 
 - devtools, debugger.html
 
-- spidermonkey
+- [spidermonkey](https://developer.mozilla.org/en-US/docs/Mozilla/Projects/SpiderMonkey)
 
 - mozvr
 
