@@ -1,0 +1,15 @@
+## RAIL
+
+- 100 ms event response
+- time to interaction 1 sec
+- lightweight < 1 mb
+
+## ready-based components
+
+- repo
+- i18n
+- a11y
+- tests
+- demo
+- blueprint/mocks
+- docs
