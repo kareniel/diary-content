@@ -85,21 +85,43 @@ get a base64 encoded version of your private key
 ```yaml
 image: node:4.6.0
 pipelines:
-  default:
-    - step:
-        script:
-          - npm install
-          - npm test
-          - npm run build
-          - mkdir -p ~/.ssh
-          - cat my_known_hosts >> ~/.ssh/known_hosts
-          - (umask 077; echo $ID_RSA | base64 --decode > ~/.ssh/id_rsa)
-          - scp -r dist $DEV_DEPLOY_USER@$DEV_SERVER:$DEV_DIR
+  branches:
+    master:
+      - step:
+          script:
+            - npm install
+            - npm test
+            - npm run build
+            - mkdir -p ~/.ssh
+            - cat my_known_hosts >> ~/.ssh/known_hosts
+            - (umask 077; echo $ID_RSA | base64 --decode > ~/.ssh/id_rsa)
+            - scp -r dist $PROD_DEPLOY_USER@$PROD_SERVER:$PROD_DIR
+    staging:
+      - step:
+          script:
+            - npm install
+            - npm test
+            - npm run build
+            - mkdir -p ~/.ssh
+            - cat my_known_hosts >> ~/.ssh/known_hosts
+            - (umask 077; echo $ID_RSA | base64 --decode > ~/.ssh/id_rsa)
+            - scp -r dist $STAGING_DEPLOY_USER@$STAGING_SERVER:$STAGING_DIR
+    develop:
+      - step:
+          script:
+            - npm install
+            - npm test
+            - npm run build
+            - mkdir -p ~/.ssh
+            - cat my_known_hosts >> ~/.ssh/known_hosts
+            - (umask 077; echo $ID_RSA | base64 --decode > ~/.ssh/id_rsa)
+            - scp -r dist $DEV_DEPLOY_USER@$DEV_SERVER:$DEV_DIR
 ```
 
 ## Notes
 
 - Make sure your tests return an error code
+- Watch out: the 'scripts' sections require 4 space indents
 
 
 ---
