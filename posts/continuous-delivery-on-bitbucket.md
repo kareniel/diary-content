@@ -118,6 +118,17 @@ pipelines:
             - scp -r dist $DEV_DEPLOY_USER@$DEV_SERVER:$DEV_DIR
 ```
 
+## Bonus: Get notified on Slack
+
+1. Install the Bitbucket integration in Slack
+2. Copy the unique webhook URL
+3. Go to your Bitbucket repository admin > webhooks
+4. Add a webhook for "commit status updated" event to get success and failed notifications or "commit status created" event to get a notification when a pipeline is started
+5. Paste the webhook url into the URL field
+6. Save
+
+Source: https://bitbucket.org/snippets/xtjhin/GpkxB
+
 ## Notes
 
 - Make sure your tests return an error code
