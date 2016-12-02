@@ -1,0 +1,14 @@
+# Tea bags
+
+- Box
+- Enveloppe
+- Bag
+   - Label
+   - String
+   - Pouch
+- Herbs
+    - Recipe
+    - Origin
+    - Quality
+        - Organic
+        - Freshness
