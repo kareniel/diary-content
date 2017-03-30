@@ -1,3 +1,0 @@
-- [ ] function composition 
-- [ ] loose coupling
-- [ ] naming variables and functions
