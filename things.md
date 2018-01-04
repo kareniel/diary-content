@@ -7,4 +7,5 @@
   - walking paths for sprites
   - events (inspired by rpgmaker, but much more simple)
   - a custom full-screen ui
+    - auth w github & load/save game data in a git repo
 - a bitsy game [(orb-bitsy-data)](https://github.com/kareniel/orb-bitsy-data)
