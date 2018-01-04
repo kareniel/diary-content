@@ -7,4 +7,4 @@
   - walking paths for sprites
   - events (inspired by rpgmaker, but much more simple)
   - a custom full-screen ui
-- a minimal 2d adventure/art game
+- a bitsy game [(orb-bitsy-data)](https://github.com/kareniel/orb-bitsy-data)
