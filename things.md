@@ -10,3 +10,4 @@
     - auth w github & load/save game data in a git repo
 - a bitsy game [(orb-bitsy-data)](https://github.com/kareniel/orb-bitsy-data)
 - a browser extension that automates clicking on the links in download gates for you and downloads the file in the background
+- an tag-oriented media api server for music and potentially photos
